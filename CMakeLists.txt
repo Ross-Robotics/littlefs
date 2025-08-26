@@ -10,3 +10,8 @@ target_include_directories(littlefs
     PUBLIC
         "${CMAKE_CURRENT_SOURCE_DIR}"
 )
+
+target_include_directories(littlefs
+    SYSTEM INTERFACE
+        "${CMAKE_CURRENT_SOURCE_DIR}"
+)
